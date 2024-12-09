@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM QnA Generator</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Smart Question and Answer Generator</h1>
+
+    <form id="qnaForm">
+        <label for="text">Enter a text snippet:</label>
+        <textarea id="text" required></textarea>
+        <button type="submit">Generate</button>
+    </form>
+    <div id="output" class="result" style="display: none;">
+        <h3>Results</h3>
+        <div id="questionsContainer"></div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
