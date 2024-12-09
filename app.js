@@ -2,7 +2,7 @@ document.getElementById("qnaForm").addEventListener("submit", async function (e)
     e.preventDefault();
     const text = document.getElementById("text").value;
 
-    const response = await fetch("http://localhost:8000/generate", {
+    const response = await fetch("http://scag-back-gxeqcvase7gqhucd.eastus-01.azurewebsites.net/generate", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
